@@ -1,0 +1,232 @@
+/* ======= Reset & Fonts ======= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cairo', sans-serif;
+}
+
+body {
+    background-color: #f8f8f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* ======= Navbar ======= */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar .logo {
+    font-weight: 600;
+    font-size: 24px;
+    color: #333;
+}
+
+.navbar nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.navbar nav a:hover {
+    color: #ff6600;
+}
+
+/* ======= Hero Section ======= */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 50px;
+    background-color: #fff;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.hero-content {
+    flex: 1 1 400px;
+}
+
+.hero-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.hero-content .btn {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+
+.hero-content .btn:hover {
+    background-color: #e65c00;
+}
+
+.hero-img {
+    flex: 1 1 400px;
+    text-align: center;
+}
+
+.hero-img img {
+    max-width: 70%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* ======= Products Section ======= */
+.products {
+    padding: 60px 50px;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 28px;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.product-grid {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product-card {
+    background-color: #fff;
+    padding: 20px;
+    width: 300px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.product-card img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.product-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.product-card p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+/* ======= زر الطلب عبر واتساب ======= */
+.product-card button {
+    background-color: #25D366;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.product-card button:hover {
+    background-color: #1ebe57;
+    transform: scale(1.05);
+}
+
+/* ======= About Section ======= */
+.about {
+    padding: 60px 50px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.about p {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+/* ======= Contact Section ======= */
+.contact {
+    padding: 60px 50px;
+    text-align: center;
+}
+
+.contact-box {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    display: inline-block;
+}
+
+.contact-box p {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.contact-box .btn {
+    background-color: #25D366;
+    color: #fff;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.contact-box .btn:hover {
+    background-color: #1ebe57;
+    transform: scale(1.05);
+}
+
+/* ======= روابط التواصل الاجتماعي ======= */
+.social-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    transition: color 0.3s, transform 0.2s;
+}
+
+.social-links a:hover {
+    color: #ff6600;
+    transform: scale(1.1);
+}
+
+/* ======= Footer ======= */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 50px;
+    margin-top: 30px;
+    border-top: 2px solid #ff6600;
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nada Mky</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* ======= تصغير صورة الـ hero ======= */
+        .hero-img img {
+            max-width: 70%;   /* تم تصغير العرض إلى 70% */
+            height: auto;
+            border-radius: 10px;
+        }
+
+        /* ======= تنسيق سعر المنتج المُضاف ======= */
+        .product-card h4 {
+            color: #a0522d; /* لون بني مميز */
+            font-size: 1.2em;
+            margin: 10px 0 15px; /* مسافة أعلى وأسفل السعر */
+            font-weight: 600;
+        }
+        /* ================================== */
+    </style>
+</head>
+
+<body>
+
+    <header class="navbar">
+        <div class="logo">
+            <img src="images/handmade_brand.jpg" alt="Nada Mky" style="height:50px; vertical-align: middle;">
+            Nada Mky
+        </div>
+        <nav>
+            <a href="#home">الرئيسية</a>
+            <a href="#products">المنتجات</a>
+            <a href="#about">من نحن</a>
+            <a href="#contact">تواصل معنا</a>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>منتجات Nada Mky عالية الجودة</h1>
+            <p>كل القطع مصنوعة يدويًا بإتقان واحتراف</p>
+            <a href="#products" class="btn">تصفح المنتجات</a>
+        </div>
+        <div class="hero-img">
+            <img src="images/new_hero.jpg" alt="Nada Mky Image">
+        </div>
+    </section>
+
+    <section class="products" id="products">
+        <h2 class="section-title">منتجاتنا</h2>
+        <div class="product-grid">
+
+            <div class="product-card">
+                <img src="images/cap.jpg" alt="كاب">
+                <h3>كاب</h3>
+                <h4>السعر: 150 جنيه</h4> <p>خامة ممتازة – صناعة خاصة</p>
+                <button onclick="window.location.href='https://wa.me/201148839710?text=مرحبا، أريد طلب المنتج: كاب'">
+                    اطلب الآن
+                </button>
+            </div>
+
+            <div class="product-card">
+                <img src="images/ramadan.jpg" alt="مكرمية رمضان">
+                <h3>مكرمية رمضان</h3>
+                <h4>السعر: 220 جنيه</h4> <p>تصميم مميز – صناعة يدوية</p>
+                <button onclick="window.location.href='https://wa.me/201148839710?text=مرحبا، أريد طلب المنتج: مكرمية رمضان'">
+                    اطلب الآن
+                </button>
+            </div>
+
+            <div class="product-card">
+                <img src="images/cloud.jpg" alt="سحابة ديكور بالمكرمية">
+                <h3>سحابة ديكور بالمكرمية</h3>
+                <h4>السعر: 180 جنيه</h4> <p>تصميم مميز – صناعة يدوية</p>
+                <button onclick="window.location.href='https://wa.me/201148839710?text=مرحبا، أريد طلب المنتج: سحابة ديكور بالمكرمية'">
+                    اطلب الآن
+                </button>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h2 class="section-title">من نحن؟</h2>
+        <p>
+            نحن متخصصون في صناعة المنتجات اليدوية بجودة عالية وذوق مختلف.
+            كل قطعة مصنوعة بحب واهتمام بالتفاصيل.
+        </p>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="section-title">تواصل معنا</h2>
+        <div class="contact-box">
+            <p>للطلبات – رسائل الصفحة أو الواتساب</p>
+            <p>📞 رقم التواصل: 01148839710</p>
+            <a href="https://wa.me/201148839710" class="btn">تواصل الآن</a>
+            <div class="social-links" style="margin-top:15px;">
+                <a href="https://www.instagram.com/_nada_mky?igsh=MWJ2YWRtcWk5YnJoaw==" target="_blank">إنستجرام</a> |
+                <a href="https://www.facebook.com/share/1GdEJGxKgv/" target="_blank">فيسبوك</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Nada Mky – جميع الحقوق محفوظة</p>
+    </footer>
+
+</body>
+</html>
